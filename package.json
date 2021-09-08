@@ -1,0 +1,23 @@
+{
+  "name": "quiz-spa",
+  "version": "1.0.0",
+  "description": "a single page app quiz game for neue fische",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git fetch origin"
+  },
+  "keywords": [
+    "git",
+    "checkout",
+    "-b",
+    "addjs",
+    "origin/addjs"
+  ],
+  "author": "Danilo Brauer",
+  "license": "MIT"
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-SPA</title>
+    <link rel="stylesheet" href="./components/css/styles.css">
+    <script src="/index.js" defer></script>
+</head>
+<body>
+    <h1><img src="./components/images/main.svg"></img>Quiz - O - Mate</h1>
+    <main id="cards" class="main__hidden">
+        <section class="card">
+          <button class="card__bookmark"><img class = "card__bookmark_unbook" src="components/images/star_black_24dp.svg"></button>
+            <h2 class="card__question">What is the CPU</h2>
+            <button class="card__button">Show answer</button>
+            <p class="card__answer--hidden">
+              The Central Processing Unit s the electronic circuitry that 
+              executes instructions comprising a computer program. The CPU performs basic arithmetic, logic, 
+              controlling, and input/output (I/O) operations specified by the instructions in the program.
+            </p>
+            <ul class="tags">
+              <li class="tags__item">computer parts </li>
+              <li class="tags__item">processor</li>
+              <li class="tags__item">processing</li>
+            </ul>
+          </section>
+      
+      <section class="card">
+            <button class="card__bookmark"><img class = "card__bookmark_unbook" src="components/images/star_black_24dp.svg"></button>
+            <h2 class="card__question">What is a developer?</h2>
+            <button class="card__button">Show answer</button>
+            <p class="card__answer--hidden">
+              That's an individual that creates software applications. The person will usually have experience at scratching their heads,
+              pressing keys in frustration and be good at feeling the heureka when all bugs are fixed afterwards.
+            </p>
+            <ul class="tags">
+              <li class="tags__item">Developer</li>
+              <li class="tags__item">Software</li>
+              <li class="tags__item">Coding</li>
+            </ul>
+          </section>
+      
+      <section class="card">
+            <button class="card__bookmark"><img class = "card__bookmark_unbook" src="components/images/star_black_24dp.svg"></button>
+            <h2 class="card__question">What's python?</h2>
+            <button class="card__button">Show answer</button>
+            <p class="card__answer--hidden">
+              a high level programming language that's all the big fuzz for data scientists/analysts.
+            </p>
+            <ul class="tags">
+              <li class="tags__item">programming</li>
+              <li class="tags__item">animals?</li>
+              <li class="tags__item">Data Science</li>
+            </ul>
+          </section>
+        </main>
+    <main class="main__hidden" id="bookmarks">
+      <section class="card">
+        <button class="card__bookmark"><img class = "card__bookmark_unbook" src="components/images/star_black_24dp.svg"></button>
+        <h2 class="card__question">What is a developer?</h2>
+        <button class="card__button">Show answer</button>
+        <p class="card__answer--hidden">
+          That's an individual that creates software applications. The person will usually have experience at coding, scratching their heads in frustration,
+          practicing their and be good at feeling the heureka when all bugs are fixed afterwards.
+        </p>
+        <ul class="tags">
+          <li class="tags__item">Developer</li>
+          <li class="tags__item">Software</li>
+          <li class="tags__item">Coding</li>
+        </ul>
+      </section>
+    </main>
+    <main class="main__hidden" id="create">
+        <section class="main">
+            <section class="insert">
+                <h3 class="insert__headline">Create new Quiz Card</h3>
+                <ul class="input">
+                    <li class="input__items"><input type="text" class="input__title-field" placeholder="Frage"></li>
+                    <li class="input__items"><input type="text" class="input__title-field" placeholder="Antwort zur Frage"></li>
+                    <li class="input__items"><input type="text" class="input__title-field" placeholder="Keywords hinzufügen"></li>
+                    <li class="input__items input__flex"><button class="card__btn max-50">Karte hinzufügen</button></li>
+                </ul>
+            </section>
+          </section>
+        </main>
+
+    <main class="main__hidden" id="profile">
+      <section class="profile">
+          <ul class="profile-wrapper">
+              <li class="profile-wrapper__items profile-flex"><img src="./components/images/me.jpg" alt="" class="profile__image"></li>
+              <li class="profile-wrapper__items profile-flex"><h3>Danilo Bräuer</h3></li>
+              <li class="profile-wrapper__items">
+                  <h5 class="profile-headline__small">About Me</h5>
+                  
+          <h2>König Pranna</h2>
+      </section>
+    </main>
+
+    <footer class="footer">
+        <a id="cards_btn" class="footer__link active"><img src="./components/images/main.svg" alt="">Home</a>
+        <a id="bookmarks_btn" class="footer__link"><img src="./components/images/bookmark.svg" alt="">Bookmarks</a>
+        <a id="create_btn" class="footer__link"><img src="./components/images/create.svg" alt="">Create</a>
+        <a id="profile_btn" class="footer__link"><img src="./components/images/profile.svg" alt="">Profile</a>
+    </footer>
+</body>
+</html>

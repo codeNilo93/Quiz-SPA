@@ -1,0 +1,43 @@
+footer {
+    background-color: navy;
+    color: black;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-top: 2px solid #dedede;
+    display: flex;
+    z-index: 300;
+    border: 1px solid black;
+}
+
+.footer__link {
+    flex: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;  
+    background-color: none;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+footer > a:hover {
+    background-color: #dedede;
+    border: 1px solid black;
+}
+
+footer > a:active {
+    background-color: #f1f1f1;
+}
+
+.active {
+    background-color: #f1f1f1;
+}
+
+footer > a > img {
+    height: 25px;
+}

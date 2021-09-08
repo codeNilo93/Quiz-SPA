@@ -1,0 +1,42 @@
+.cards {
+    display: grid;
+    grid-template-rows: 60px auto 60px;
+    grid-gap: 30px;
+    height: 100vh;
+  }
+  
+  .card {
+    border: 1px solid navy;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: white;
+  }
+  .card__answer--hidden{
+    display:none;
+  }
+  .card__answer__unhide {
+    display:contents;
+  }
+  .card__bookmark_unbook {
+    opacity: 0.5 ;
+  
+  }
+  .card__bookmark_book{
+   opacity: 1;
+  }
+  
+  .tags {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .tags__item {
+    padding: 8px;
+    border: 1px solid navy;
+    border-radius: 8px;
+  }
