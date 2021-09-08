@@ -2,4 +2,4 @@ This SPA simulates a quiz game that challenges the user with some fundamental IT
 
 The original version was an MPA modified into an SPA with javascript.
 
-As more Javascript concepts are being teached during the Bootcamp, interest has grown to lean out the code of the app with proper functions.
+As more Javascript concepts are being teached during the Bootcamp, interest has grown to lean out the code of the app with proper functions.# Quiz-SPA
